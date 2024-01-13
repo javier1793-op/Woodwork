@@ -1,0 +1,25 @@
+:root {
+  --white-main:#FFFFFF;
+  --white2-main:#f5f5f7;
+  --black-main:#3f3a3e;
+  --orange-main:#fd7018;
+}
+body{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white2-main);
+  color: var(--black-main);
+  padding: 2rem;
+}
+
+main{
+  width: 90vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
