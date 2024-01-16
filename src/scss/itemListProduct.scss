@@ -1,0 +1,81 @@
+.containerItemListProduct{
+    width: 17rem;
+    height: auto;
+    background: var(--white-main);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.portImg{
+    position: relative;
+    width: 100%;
+    height: 16rem;
+}
+.favorite{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--orange2-main);
+    color: var(--white-main);
+    font-weight: 600;
+    padding: 2px 5px;
+    border-radius: 10px;
+    gap: 5px;
+    font-size: .9rem;
+}
+.ProductImg{
+    width: 100%;
+    height: 100%;
+}
+.iconFavorite{
+    color: var(--white-main);
+}
+.InfoProduct{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    position: relative;
+}
+.InfoProduct .new{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: var(--red-main);
+    color: var(--white-main);
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: .8rem;
+    transform: translateY(-29px);
+}
+.InfoProduct .titleProductList{
+    letter-spacing: 1px;
+}
+.InfoProduct .categoryProductoList{
+    font-size: .8rem;
+    color: var(--gray-main);
+}
+ .precieProductList{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.viewProduct{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconView{
+    font-size: 2.5rem;
+    color: var(--orange-main);
+    cursor: pointer;
+}

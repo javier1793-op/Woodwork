@@ -1,0 +1,25 @@
+.containerListProduct{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            250px,
+            1fr
+        )
+    );
+    gap: 1rem;
+    justify-items: center;
+}
+.titleListProduct{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.iconHot{
+    color: var(--red-main);
+    font-size: 1.3rem;
+}
+.titleListProduct{
+    font-size: 1.3rem;
+}
