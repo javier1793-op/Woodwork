@@ -1,0 +1,15 @@
+.containerFilter{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: var(--white-main);
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    transition: .3s;
+}
+.containerFilter:hover{
+    color: var(--orange-main);
+}
