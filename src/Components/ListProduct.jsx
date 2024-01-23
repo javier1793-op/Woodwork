@@ -3,14 +3,17 @@ import ItemListProduct from "./ItemListProduct";
 import { FaHotjar } from "react-icons/fa";
 import Filter from "../Components/Filter";
 import { useState } from "react";
+import { useFilter } from "../Hooks/useFilter";
 
-const ListProduct = ({ products,category,setFilter }) => {
+const ListProduct = ({ products,category }) => {
  
   const [minPrice, setMinPrice] = useState(0)
+  const {setFilters}=useFilter()
+
 
   const  handleChangePrice = (e)=>{
       setMinPrice(e.target.value)
-      setFilter(preveState =>(
+      setFilters(preveState =>(
         {
           ...preveState,
           minPrice:e.target.value
@@ -19,7 +22,7 @@ const ListProduct = ({ products,category,setFilter }) => {
   }
 
   const handleChangeCategory = (name)=>{
-    setFilter(preveState =>(
+    setFilters(preveState =>(
       {
         ...preveState,
         category:name
