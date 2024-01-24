@@ -15,14 +15,10 @@ const Head = () => {
         },
         {
             id:2,
-            name:'Productos',
+            name:'Carrito',
             active:''
         },
-        {
-            id:3,
-            name:'Contacto',
-            active:''
-        },
+      
     ]
   return (
     <>

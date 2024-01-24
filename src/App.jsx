@@ -4,6 +4,8 @@ import Head from './Components/Head'
 import ListProduct from './Components/ListProduct'
 import { products as InitialProducts} from './mooks/product.json'
 import { useFilter } from './Hooks/useFilter'
+import CardModal from './Components/CardModal'
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
 
   return (
     <>
+    <CardModal/>
       <main>
         <Head/>
         <ListProduct
